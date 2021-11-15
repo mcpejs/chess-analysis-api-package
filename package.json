@@ -18,7 +18,13 @@
     "lichess",
     "eval"
   ],
-  "author": "",
+  "author": "Samuel GABORIEAU <sam.gabor@hotmail.com>",
+  "bugs": "https://github.com/Orivoir/chess-analysis-api-package/issues",
+  "homepage": "https://github.com/Orivoir/chess-analysis-api-package#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Orivoir/chess-analysis-api-package.git"
+  },
   "license": "ISC",
   "dependencies": {
     "chess.js": "^0.12.0",
