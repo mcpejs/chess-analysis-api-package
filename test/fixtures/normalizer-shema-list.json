@@ -1,0 +1,359 @@
+[
+  {
+    "providerName": "stockfishEval",
+    "result": {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "depth": 12,
+      "multipv": 1,
+      "lines": [
+        {
+          "depth": 12,
+          "multipv": 1,
+          "score": {
+            "type": "cp",
+            "value": 125
+          },
+          "moves": ["b1c3", "f8d6", "d2d3", "a7a6", "b5c4", "c6a5", "c4b3", "e8h8", "e1h1", "c7c6"]
+        }
+      ]
+    }
+  },
+  {
+    "providerName": "stockfishEval",
+    "result": {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "depth": 12,
+      "multipv": 3,
+      "lines": [
+        {
+          "depth": 12,
+          "multipv": 1,
+          "score": {
+            "type": "cp",
+            "value": 125
+          },
+          "moves": ["b1c3", "f8d6", "d2d3", "a7a6", "b5c4", "c6a5", "c4b3", "e8h8", "e1h1", "c7c6"]
+        },
+        {
+          "depth": 12,
+          "multipv": 2,
+          "score": {
+            "type": "cp",
+            "value": 75
+          },
+          "moves": ["d2d3", "a7a6", "b5c4", "c6a5", "c4b3", "e8h8", "e1h1", "c7c6"]
+        },
+        {
+          "depth": 12,
+          "multipv": 3,
+          "score": {
+            "type": "cp",
+            "value": 42
+          },
+          "moves": ["a7a6", "b1c3", "f8d6", "d2d3", "b5c4", "c6a5", "c4b3", "e8h8", "e1h1", "c7c6"]
+        }
+      ]
+    }
+  },
+  {
+    "providerName": "lichessCloudEval",
+    "result": {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "knodes": 17271908,
+      "depth": 60,
+      "pvs": [
+        {
+          "moves": "e1h1 f6e4 f1e1 e4d6 f3e5 f8e7 b5f1 c6e5 e1e5 e8h8",
+          "cp": 15
+        }
+      ]
+    }
+  },
+  {
+    "providerName": "lichessCloudEval",
+    "result": {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "knodes": 39299194,
+      "depth": 46,
+      "pvs": [
+        {
+          "moves": "e1h1 f6e4 f1e1 e4d6 f3e5 f8e7 b5f1 c6e5 e1e5 e8h8",
+          "cp": 28
+        },
+        {
+          "moves": "d2d3 d7d6 e1h1 a7a6 b5c6 b7c6 f1e1 c6c5 c2c3 c8b7",
+          "cp": 21
+        },
+        {
+          "moves": "b1c3 f8d6 d2d3 a7a6 b5c4 c6a5 c4b3 e8h8 e1h1 c7c6",
+          "cp": 16
+        },
+        {
+          "moves": "b5c6 d7c6 d2d3 f8d6 e1h1 c8e6 f3g5 e6g4 g5f3",
+          "cp": 0
+        },
+        {
+          "moves": "d1e2 f8c5 b5c6 b7c6 f3e5 e8h8 e1h1 f8e8 e5f7 d8e7",
+          "cp": 0
+        }
+      ]
+    }
+  },
+  {
+    "providerName": "lichessOpening",
+    "result": {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "white": 0,
+      "draws": 1,
+      "black": 3,
+      "moves": [
+        {
+          "uci": "e2e3",
+          "san": "e3",
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "averageRating": 2437
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "averageRating": 2257
+        },
+        {
+          "uci": "e1f2",
+          "san": "Kf2",
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "averageRating": 2517
+        },
+        {
+          "uci": "d2d4",
+          "san": "d4",
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "averageRating": 2340
+        }
+      ],
+      "averageRating": 2387,
+      "opening": null,
+      "topGames": [
+        {
+          "id": "LCpblIvL",
+          "winner": "black",
+          "speed": "classical",
+          "white": {
+            "name": "Schneider, Igor",
+            "rating": 2350
+          },
+          "black": {
+            "name": "Van Wely, Loek",
+            "rating": 2685
+          },
+          "year": 2005
+        },
+        {
+          "id": "ZhJ5ByRz",
+          "winner": "black",
+          "speed": "classical",
+          "white": {
+            "name": "Van Foreest, Lucas",
+            "rating": 2453
+          },
+          "black": {
+            "name": "Beerdsen, Thomas",
+            "rating": 2422
+          },
+          "year": 2017
+        },
+        {
+          "id": "bl29MmSF",
+          "winner": "black",
+          "speed": "classical",
+          "white": {
+            "name": "Gomez Jurado, Luis Alberto",
+            "rating": 2280
+          },
+          "black": {
+            "name": "Gonzalez Velez, Fermin",
+            "rating": 2400
+          },
+          "year": 1997
+        },
+        {
+          "id": "49GT1V3A",
+          "winner": "draw",
+          "speed": "classical",
+          "white": {
+            "name": "Tessier Desrosiers, Olivier",
+            "rating": 2214
+          },
+          "black": {
+            "name": "Voskanyan, Vahagn",
+            "rating": 2300
+          },
+          "year": 2004
+        }
+      ]
+    }
+  },
+  {
+    "providerName": "lichessOpening",
+    "result": {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "white": 5164,
+      "draws": 11714,
+      "black": 3499,
+      "moves": [
+        {
+          "uci": "e1h1",
+          "san": "O-O",
+          "white": 2748,
+          "draws": 7377,
+          "black": 1928,
+          "averageRating": 2464
+        },
+        {
+          "uci": "d2d3",
+          "san": "d3",
+          "white": 1908,
+          "draws": 3641,
+          "black": 1169,
+          "averageRating": 2489
+        },
+        {
+          "uci": "d1e2",
+          "san": "Qe2",
+          "white": 264,
+          "draws": 284,
+          "black": 213,
+          "averageRating": 2429
+        },
+        {
+          "uci": "b1c3",
+          "san": "Nc3",
+          "white": 133,
+          "draws": 247,
+          "black": 91,
+          "averageRating": 2456
+        },
+        {
+          "uci": "d2d4",
+          "san": "d4",
+          "white": 78,
+          "draws": 115,
+          "black": 69,
+          "averageRating": 2437
+        },
+        {
+          "uci": "b5c6",
+          "san": "Bxc6",
+          "white": 31,
+          "draws": 48,
+          "black": 26,
+          "averageRating": 2417
+        },
+        {
+          "uci": "c2c3",
+          "san": "c3",
+          "white": 1,
+          "draws": 2,
+          "black": 1,
+          "averageRating": 2352
+        },
+        {
+          "uci": "f3e5",
+          "san": "Nxe5",
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "averageRating": 2440
+        },
+        {
+          "uci": "b5a4",
+          "san": "Ba4",
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "averageRating": 2345
+        },
+        {
+          "uci": "h1f1",
+          "san": "Rf1",
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "averageRating": 2244
+        }
+      ],
+      "averageRating": 2470,
+      "opening": {
+        "eco": "C65",
+        "name": "Ruy Lopez: Berlin Defense"
+      },
+      "topGames": [
+        {
+          "id": "LSVO85Cp",
+          "winner": "white",
+          "speed": "classical",
+          "white": {
+            "name": "Caruana, F.",
+            "rating": 2805
+          },
+          "black": {
+            "name": "Carlsen, M.",
+            "rating": 2876
+          },
+          "year": 2015
+        },
+        {
+          "id": "Kc2CTGlC",
+          "winner": "draw",
+          "speed": "classical",
+          "white": {
+            "name": "Caruana, F.",
+            "rating": 2811
+          },
+          "black": {
+            "name": "Carlsen, M.",
+            "rating": 2865
+          },
+          "year": 2015
+        },
+        {
+          "id": "BYevzpdi",
+          "winner": "draw",
+          "speed": "classical",
+          "white": {
+            "name": "Anand, V.",
+            "rating": 2816
+          },
+          "black": {
+            "name": "Carlsen, M.",
+            "rating": 2853
+          },
+          "year": 2015
+        },
+        {
+          "id": "yldIiQZJ",
+          "winner": "draw",
+          "speed": "classical",
+          "white": {
+            "name": "Carlsen, M.",
+            "rating": 2855
+          },
+          "black": {
+            "name": "Kramnik, Vladimir",
+            "rating": 2812
+          },
+          "year": 2016
+        }
+      ]
+    }
+  }
+]
